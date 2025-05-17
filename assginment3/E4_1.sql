@@ -1,0 +1,12 @@
+CREATE TABLE STUDENTS(
+    -> 'name' VARCHAR(30),
+    -> 'SSN' INT NOT NULL,
+    -> 'year' YEAR,
+    -> 'major' VARCHAR(30),
+    -> 'phone' VARCHAR(20),
+    -> 'address' VARCHAR(80),
+    -> 'credits' INT DEFAULT 0,
+    -> 'avg_grade' FLOAT DEFAULT 0.0,
+    -> 'enroll' BOOLEAN DEAFULT TRUE,
+    -> 'PRIMARY KEY' ('SSN', 'major', 'enroll')
+    -> );
